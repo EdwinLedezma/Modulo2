@@ -1,0 +1,90 @@
+/* Estilos generales para el cuerpo y el documento HTML */
+body, html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #eaf4e9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para el encabezado (slogan) y otras secciones */
+.slogan,
+.consiste,
+.inicia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.5rem;
+    min-height: 100vh;
+}
+
+/* Estilos para las imágenes */
+.cazadores,
+.div3 img {
+    width: 100%; /* Asegura que las imágenes se ajusten al ancho de su contenedor */
+}
+
+/* Estilos para el botón "Iniciar Test" */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el menú */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-right: 1.5rem; /* Ajustado para mantener una distancia uniforme en los márgenes */
+}
+
+/* Estilos para los elementos de lista en el menú en estado hover */
+.menu a:hover {
+    background-color: aquamarine;
+    color: brown;
+}
+
+/* Estilos para los enlaces en el menú */
+.menu a {
+    background: none;
+    color: black;
+}
+
+/* Estilos para los enlaces ya visitados en el menú */
+.menu a:visited {
+    color: yellowgreen;
+}
+
+/* Estilos para el logotipo y el botón "Iniciar Test" */
+#logo,
+.play {
+    width: 40px;
+    vertical-align: middle;
+}
+
+/* Estilos para la clase "inicio" */
+.inicio {
+    display: flex;
+    flex-direction: column; /* Para alinear el botón debajo del texto */
+    align-items: center;
+    margin: 1.5rem; /* Añadido margen para separar del contenido circundante */
+}
+
+/* Estilos para el elemento "nav" */
+nav {
+    margin-right: 0;
+    position: static;
+    background-color: transparent;
+    opacity: 1;
+}

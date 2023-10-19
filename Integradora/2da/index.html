@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juego de Test</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+    </head>
+    <body>
+        <h1>Juego de Test</h1>
+        <form id="userInfoForm">
+            <!-- Recopila información del usuario (nombre, edad, género) -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required><br>
+
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero" required>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select><br>
+
+            <!-- Agrega un botón "Comenzar el Test" -->
+            <button type="button" id="startButton">Comenzar el Test</button>
+        </form>
+
+        <div id="quizContainer" style="display: none;">
+            <!-- Aquí se generarán dinámicamente las preguntas y respuestas -->
+        </div>
+
+        <!-- Botón "Siguiente" para avanzar a la siguiente pregunta -->
+        <button id="nextButton" style="display: none;" onclick="nextQuestion()">Siguiente</button>
+
+        <div id="results" style="display: none;">
+            <h2>Resultados:</h2>
+            <p id="score"></p>
+        </div>
+
+        <!-- Incluye el archivo JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>

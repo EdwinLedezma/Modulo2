@@ -1,0 +1,200 @@
+/* Estilos generales para el cuerpo y el documento HTML */
+body,
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*background-color: #eaf4e9;
+    
+    padding: 0;
+    /*height: 100%;*/
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, white, #eaf4e9);
+}
+
+.slogan p {
+    text-align: center;
+}
+
+.slogan .inicio {
+    display: grid;
+}
+
+/* Estilos para el encabezado (slogan) */
+.slogan,
+.consiste,
+.inicia {
+    /* margin-left: 150px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: center;*/
+    /* vertical-align: middle;*/
+    margin: 0 1.5rem;
+    min-height: 100vh;
+}
+
+.cazadores {
+    width: 50%;
+}
+
+.slogan,
+.invitacion,
+.inicia,
+.consiste {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+/* Estilos para un elemento con ID "div2" */
+.invitacion {
+    background-color: white;
+}
+
+.div3 img {
+    width: 40%;
+}
+
+.consiste {
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.inicia {
+    text-align: center;
+    margin-left: 150px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.div2 {
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+}
+
+.div2 p {
+    margin-left: 40px;
+}
+
+.div3 {
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.consiste div {
+    width: 50%;
+}
+
+/* Estilos para las listas */
+li {
+    list-style: none;
+    text-align: right;
+    font-size: 15px;
+}
+
+/* Estilos para el menú */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 70px;
+
+}
+
+/* Estilos para los elementos de lista en el menú en estado hover */
+.menu li:hover {
+    background-color: aquamarine;
+    color: brown;
+}
+
+/* Estilos para los enlaces en el menú */
+.menu a {
+    background: none;
+    color: white;
+}
+
+/* Estilos para los enlaces ya visitados en el menú */
+.menu a:visited {
+    color: yellowgreen;
+}
+
+/* Estilos para los enlaces en general */
+a {
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+
+/* Estilos para el logotipo */
+#logo,
+.play {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.inicio,
+.imglogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* Estilos para la clase "inicio"
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+
+.imglogo {
+    margin-right: 5rem;
+    margin-left: 1rem;
+}
+
+/* Estilos para el elemento "nav" */
+nav {
+  /*  margin-right: 100px;*/
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #047235;
+    opacity: 80%;
+}
+
+button {
+    background-color: #48c663;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    /* Agregamos border-radius para esquinas redondeadas */
+}
+
+button:hover {
+    background-color: green;
+}
+p{
+    font-size: large;
+}
+
+
+
+
+
